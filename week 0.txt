@@ -1,0 +1,67 @@
+	基础
+		当前列表
+			ls
+				-ls	显示隐藏进程
+		当前目录
+			pwd
+		复制
+			cp
+		移动
+			mv
+		删除 
+			rm
+				-rf	强制无提醒删除！！！
+		
+		创建文件夹
+			mkdir
+		删除文件夹
+			rmdir
+
+	git
+		git 创建仓库
+			git init xxx
+		git 全部提取
+			git clone
+		git 上传
+			git push
+		git shabi
+			git pull
+		git 加入
+			git add xxx
+		git 取消加入的东西
+			git restore --staged "README.md”
+
+		git 删除
+			git rm xxx
+		git 备注
+			git commit -m "xxx"
+
+		git 创建分支
+			git branch xxx\
+				新分支上传
+					git push -u origin xxx
+				删除本地分支
+					-d xxx
+		git 合并xxx到主分支
+			git merge xxx
+		git 删除远程分支
+			git push origin --delete branch
+
+		git 切换分支
+			git checkout xxx
+				创建分支
+					-b xxx
+
+
+		git 创造标签 定格当前分支
+			git tag xxx
+				git 推送标签
+					git push --tags
+				git 删除标签
+					-d xxx
+			
+
+		git 查看状态
+			git status
+		git 查看差别
+			git diff

@@ -1,0 +1,18 @@
+
+
+
+	
+week 4
+	🌟内容
+
+    复合命令合集
+        1. 定义函数 def
+            1. 默认参数 (a=0)
+        2. 定义运算 sum = lambda a,b:a+b
+
+        ?lambda
+        ?filter
+
+        ?def x(n):
+            return lambda a : a * n
+
