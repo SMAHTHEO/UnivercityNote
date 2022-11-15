@@ -1,0 +1,40 @@
+
+
+
+    简易指令集
+        1. a = ['' for j in range(Y)]
+
+    特殊库
+        1. Tk
+            0. 初始化 win = tk.Tk()  win.mainloop()
+                1. 刷新 .updata
+                2. 延迟 .after(ms, xxx)
+                3. 标题 .title()
+                4. 隐藏 .withdraw
+                5. 退出隐藏 .deiconify
+                6. 退出 .quit
+                
+
+            1. 画面 tk.Canvas(win, width, height)
+                1. 正方形 .create_rectangle(x1,y1,x2,y2,fill="#CCCCCC",outline="#CCCCCC",width=2)
+
+            2. 绑定按键 .bind(A, xxx)
+
+                0. 转入当前窗口操作 x.focus_set()
+                1. 键盘 event() --> .keysym
+                    ("<KeyPress-a>", xxx)
+                    *. 事件
+                        鼠标左键按下 <button-1>
+                        鼠标左键释放 <buttonrelease-1>
+                        鼠标右键按下 <button-3>
+                        鼠标右键释放 <buttonrelease-3>
+                        鼠标左键按下并移动 <b1-motion> 
+                        鼠标移入事件 <enter>
+                        鼠标移出事件 <leave>
+                        聚焦事件 <focusin>
+                        失焦事件 <focusout> 
+
+            3. 弹窗 messagebox.showinfo(标题， 内容)
+
+
+

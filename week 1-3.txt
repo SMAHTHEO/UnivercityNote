@@ -42,8 +42,12 @@ week1
 
             1. x.append(x)
             2. x.pop(i)
+            3. x.remove(x)
+            4. x.insert(i,x)
 
         2. 字典 dictionaral
+
+            1. x.keys()
 
     简易命令合集
 
@@ -74,3 +78,4 @@ week1
     额外库
         1. 随机 random
             1. 随机数 .randint()
+            2. 选择 .choice(list)
