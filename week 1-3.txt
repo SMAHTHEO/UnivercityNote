@@ -27,12 +27,27 @@ week1
                 xxx.split("x")
             7. 反转字符串
                 x[::-1]
-            8. 置换字符
+            8. 删除/置换字符
                 x.replace(old,new,times)
             9. 查找 第一个子字符串的位置
                 x.find("x", 起始位置)
+            10. 排序
+                sorted(a)
+            11. 无序提取所有元素
+                set(a)
+            12. 加入
+                .jion(xxx)
+            13. 是否全是字母/汉字
+                .isalpha()
+            14. 是否全是空格/换行
+                .isspace()
 
         2. 数字    int()
+
+            1. 求和 
+                sum(list)
+            2. 获取最大值
+                max(a,b)
 
         3. 浮点数  flout()
 
@@ -54,6 +69,8 @@ week1
         1. 类型 type()
         2. 长度 len()
         3. + - * / // ** %
+        4. global/nonlocal
+
 
 
     复合命令合集
@@ -75,7 +92,12 @@ week1
         3. 函数定义 def()      
             1. 函数内只可修改 字典 列表
 
+        
+
     额外库
         1. 随机 random
             1. 随机数 .randint()
             2. 选择 .choice(list)
+
+    版本控制
+        python -m venv path
